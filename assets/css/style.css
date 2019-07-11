@@ -1,3 +1,14 @@
 body{
     background-image: url("../images/diamond_upholstery.png");
 }
+
+.crystal{
+    cursor: pointer;
+}
+
+.col-sm{
+    background-color: #eec7c7;;
+    border-color: seagreen;
+    border-width: 3px;
+    border-style: solid;
+}
