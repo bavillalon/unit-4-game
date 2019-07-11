@@ -14,47 +14,47 @@
     <title>Crystal Collector!</title>
   </head>
   <body>
-    <header>
+    <header class="p-2">
         <div class="container">
             <h1>Crystal Collector Game!</h1>
         </div>
     </header>
 
-    <main class="container">
+    <main class="container my-3">
         <div>
             <h3>Object of the game:</h3>
-            <p>The object of the game is to add numbers associated with each of the crystals in to match a target number. The target number will be randomly generated at the beginning
-                at the beginning of the game. The value associated with each crystal will also be generated randomly each game but will stay the same between each clicks within a game and will not be known to the player until it is clicked. 
+            <p>The object of the game is to add numbers associated with each of the crystals to match a target number. The target number will be randomly generated 
+                at the beginning of the game as well as the value associated with each crystal, which will stay the same between each clicks within a game and will not be known to the player until it is clicked. 
                 Once the the player knows the values, he or she will need to figure out the best way to achieve the sum.
             </p>
         </div>
         <div class="row">
-            <div class="col-sm m-2 p-0">
+            <div class="col-sm m-2 p-2">
                 <h5>Stats:</h5>
                 <div>
                     <p class="status"></p>
-                    <p class="wins">0</p>
-                    <p class="losses">0</p>
+                    <p class="wins">Wins: 0</p>
+                    <p class="losses">Losses: 0</p>
                 </div>
             </div>
-            <div class="col-sm m-2 p-0">
+            <div class="col-sm m-2 p-2">
                 <h5>Target number:</h5>
                 <p class="targetNum"></p>
             </div>
-            <div class="col-sm m-2 p-0">
+            <div class="col-sm m-2 p-2">
                 <h5>Round Total:</h5>
                 <p class="total">0</p>
             </div>
         
         </div>
-        <div>
+        <div my-2>
             <h5>Click a crystal to play!</h5>
             <div class="row">
                 
                 <div class="crystal col m-2 p-0" crystalID="0"><img class="img-fluid" src="assets/images/Bluemeth.png" ></div>
-                <div class="crystal col m-2 p-0" crystalID="1"><img class="img-fluid" src="assets/images/cristal.jpg"></div>
-                <div class="crystal col m-2 p-0" crystalID="2"><img class="img-fluid" src="assets/images/fine_crystal.jpg" ></div>
-                <div class="crystal col m-2 p-0" crystalID="3"><img class="img-fluid" src="assets/images/silicon_crystal.jpg"></div>
+                <div class="crystal col m-2 p-0" crystalID="1"><img class="img-fluid" src="assets/images/crystal_oscilator.png"></div>
+                <div class="crystal col m-2 p-0" crystalID="2"><img class="img-fluid" src="assets/images/ice.png" ></div>
+                <div class="crystal col m-2 p-0" crystalID="3"><img class="img-fluid" src="assets/images/silicon_boule.png"></div>
             </div>
         </div>
     </main>

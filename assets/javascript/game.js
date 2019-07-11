@@ -53,13 +53,13 @@ $(document).ready(function() {
         if(crystalGame.currentSum===crystalGame.targetNumber){
             crystalGame.wins++;
             crystalGame.newGame();
-            $(".wins").text(crystalGame.wins);
+            $(".wins").text("Wins: " + crystalGame.wins);
             $(".status").text("You won! A new game started. Good luck!");
         }
         else if(crystalGame.currentSum>crystalGame.targetNumber){
             crystalGame.losses++;
             crystalGame.newGame();
-            $(".losses").text(crystalGame.losses);
+            $(".losses").text("Losses: " + crystalGame.losses);
             $(".status").text("You lost... A new game started. Good luck!");
         };
 
